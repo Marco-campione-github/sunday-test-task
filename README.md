@@ -24,3 +24,7 @@ Easy, I simply added the .gitignore file avoiding to synchronize the Unity gener
 ## Bonus Problem 1 
 
 I added Firebase Analytics events log to the same MyEventSystem class besides the GameAnalytics event registrations.
+
+## Bonus Problem 2
+
+I added the LevelManager script to better manager levels across the Project.

@@ -5,10 +5,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using GameAnalyticsSDK;
 
+
 public class LoadImmediately : MonoBehaviour
 {
+    public GameObject levelManager;
     private void Awake()
     {
-        SceneManager.LoadScene("Level1");
+        levelManager.GetComponent<LevelManager>().LoadLevel("Level1");
     }
 }
